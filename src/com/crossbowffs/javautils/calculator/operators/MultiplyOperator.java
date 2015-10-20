@@ -1,0 +1,8 @@
+package com.crossbowffs.javautils.calculator.operators;
+
+public class MultiplyOperator extends BinaryOperator {
+    @Override
+    protected double operate(double left, double right) {
+        return left * right;
+    }
+}
